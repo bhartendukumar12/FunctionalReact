@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-container {
+    width: 100%;
+    background: rgb(154, 184, 240);
+    display: flex;
+    justify-content: space-between;
+    .nav-container {
+        display: flex;
+        margin-right: 45px;
+        li {
+            list-style: none;
+            a {
+                text-decoration: none;
+            }
+        }
+        .nav-link {
+            padding: 10px;
+        }
+    }
+}
+
+.userCard-constiner {
+    display: flex;
+    flex-wrap: wrap;
+    .userCard {
+        cursor: pointer;
+        display: flex;
+        // flex-direction: column;
+        border: 1px solid black;
+        border-radius: 7px;
+        width: 30%;
+        margin: 15px;
+        .usercard-left {
+            display: flex;
+            flex-direction: column;
+        }
+        .usercard-right {
+            display: flex;
+            flex-direction: column;
+        }
+        li {
+            list-style: none;
+            padding: 5px;
+            margin-left: 10px;
+        }
+    }
+}
